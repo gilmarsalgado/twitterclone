@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link href="./index.css" rel="stylesheet">
+</head>
+<body>
+    <!--aside = side bar on left-->
+    <div id="aside">
+        <a class="aside_anchor" href="./index.html"><i id="xlogo"><img id="xlogo_img" src="./assets/img/Xicon.png"> </i></a>
+        <a class="aside_anchor" href="./index.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/homeicon.png">
+            <h2 class="icon_name">Home</h2>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/1.explore.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/searchicon.png">
+            <p class="icon_name">Explore</p>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/2.notifications.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/notificationsicon.png">
+            <p class="icon_name">Notifications</p>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/3.messages.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/chaticon.png">
+            <p class="icon_name">Messages</p>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/4.lists.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/listsicon.png">
+            <p class="icon_name">Lists</p>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/5.bookmarks.html"> <div class="aside_icons">
+            <img class="aside_image" src="./assets/img/bookmarkicon.png">
+            <p class="icon_name">Bookmarks</p>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/6.communities.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/communityicon.png">
+            <p class="icon_name">Communities</p>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/7.premium.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/Xicon.png">
+            <p class="icon_name">Premium</p>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/8.profile.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/profileicon.png">
+            <p class="icon_name">Profile</p>
+        </div></a>
+        <a class="aside_anchor"  href="./pages/9.mais.html"><div class="aside_icons">
+            <img class="aside_image" src="./assets/img/moreicon.png">
+            <p class="icon_name">Mais</p>
+        </div></a>
+
+
+        <button id="aside_post_button">Post</button>
+
+
+
+        <div class="profile_aside">
+                <div id="profile_aside_img_container">
+                    <img id="profile_aside_img" src="./assets/img/Tik.jpeg"> 
+                </div>
+                <div id="profile_aside_words">
+                    <div id="profile_aside_name"><h4>Gilmar Salgado</h4></div>
+                    <div id="profile_aside_at">@gilmarsalgadojr</div>
+                </div>
+                <div>
+                    <div id="profile_aside_menu">
+                        <img id="profile_aside_menu_img" src="./assets/img/dots_menu.png">
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- middle part starts-->
+
+    <div id="main">
+          
+        <div id="content">    
+            <div id="foryou_following" >
+                <div id="foryou_division"> <p>For you </p> </div>
+                <div id="following_division"> <p> Following </p></div>
+            </div>
+            
+        </div>
+
+
+        <div id="writeapost">
+            <div id="newpost_writing">
+            <img id="profile_pic_post" src="./assets/img/Tik.jpeg">
+              <input id="inputpost" type="text" placeholder="What is happening?">
+            </div>
+        </div>
+
+
+        <div id="newpostbuttons">
+            <div clas="new_post_icon">
+                <img class="icon_post" src="./assets/img/img.png">
+                <img class="icon_post" src="./assets/img/gif.png">
+                <img class="icon_post" src="./assets/img/poll.png">
+                <img class="icon_post" src="./assets/img/smile.png">
+                <img class="icon_post" src="./assets/img/sch.png">
+                <img class="icon_post" src="./assets/img/location.png">
+                <div id="post_button_container">
+                    <button id="new_post_button" >Post</button>
+                </div>
+            </div>
+         
+        </div>
+
+
+        <div id="feed">      
+            <div class="post">
+                <h4>gilmarsalgadojr</h4>
+                <p>Look at this cute cat.</p>
+                <img id="fototik" src="./assets/img/Tik.jpeg">
+                <br>
+            </div>
+
+            <div class="post">
+                <h2>Post Title 2</h2>
+                <p>This is the content of the second post.</p>
+            </div>
+        </div>
+    </div>
+  
+
+        <div id="aside_right">
+            <div id="searchbar">
+              <div id="icon_searchbar">
+                  <i><img src="./assets/img/searchicon.png"  id="rightsearchicon"/></i>
+                  <input id="input" type="text" placeholder="Search">
+              </div>
+            </div>
+
+            <div id="subscribe_box">
+                <div><h2>Subscribe to Premium</h2></div>
+                <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+                <button id="subscribe_button">Subscribe</button>
+
+            </div>
+            <div id="whotofollow">
+                  <h1>Who to follow</h1>
+                <div class="whotofollow_links">Cumorah Academy <br>@cumorahacademy
+                    <button class="whotofollow_buttons">Follow</button>
+                </div>
+                  <br>
+                <div class="whotofollow_links">Michele Coding<br>@michelecoding
+                    <button class="whotofollow_buttons">Follow</button>
+                </div>
+            </div>
+            <div id="trending">
+                <h2>Czchia trends</h2>
+                <div class="trends">
+                    <div class="trend_area">1 • Entertainment area</div>
+                    <div class="trend_acct_name">Account name</div>
+                    <div class="trend_post_amt">Post amount</div>
+                    <div class="trend_menu"><img class="trend_menu_img"src="./assets/img/dots_menu.png"></div>
+                <br>
+                <div class="trends">
+                    <div class="trend_area">2 • Entertainment area</div>
+                    <div class="trend_acct_name">Account name</div>
+                    <div class="trend_post_amt">Post amount</div>
+                    <div class="trend_menu"><img class="trend_menu_img"src="./assets/img/dots_menu.png"></div>
+                </div>
+                </div>
+            </div>
+</div>
+</body>
+</html>
